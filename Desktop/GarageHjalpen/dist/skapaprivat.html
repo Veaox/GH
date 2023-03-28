@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="/dist/output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skapa konto | Privatperson</title>
+</head>
+
+<body>
+
+    <div 
+    class="flex min-h-fit flex-col justify-center py-12">
+      <div 
+      class="sm:mx-auto sm:max-w-md">
+        <img 
+        class="mx-auto max-w-md" 
+        src="/bilder/GHlogga.png" 
+        alt="GarageHjälpens logga">
+    <h2 
+    class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Skapa konto</h2>
+
+  <div 
+  class="hidden sm:block"
+  aria-hidden="true">
+    <div 
+    class="pt-5">
+      <div 
+      class="border-t border-gray-200">
+    </div>
+    </div>
+  </div>
+  
+    <!--Create an account-form-->
+      <div 
+      class="mt-6">
+        <form 
+        action="#" 
+        method="POST">
+          <div 
+          class="overflow-hidden shadow sm:rounded-md">
+            <div 
+            class="bg-white px-4 py-5 sm:p-6">
+              <div 
+              class="grid grid-cols-6 gap-6">
+                <div 
+                class="col-span-6 sm:col-span-3">
+                  <label 
+                  for="first-name" 
+                  class="block text-sm font-medium text-gray-700">För och efternamn</label>
+                  <input 
+                  type="text" 
+                  name="first-name" 
+                  id="first-name" 
+                  autocomplete="given-name" 
+                  class="mt-2 block w-full rounded-md border-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+
+                </div>
+  
+                <div class="col-span-6 sm:col-span-3">
+                  <label for="last-name" class="block text-sm font-medium text-gray-700">Telefonnummer</label>
+                  <input type="text" name="last-name" id="last-name" class="mt-2 block w-full rounded-md border-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                </div>
+  
+                <div 
+                class="col-span-6 sm:col-span-4">
+                  
+                <label 
+                  for="email-address" 
+                  class="block text-sm font-medium text-gray-700">Email address</label>
+                  
+                  <input 
+                  type="text" 
+                  name="email-address" 
+                  id="email-address" 
+                  autocomplete="email" 
+                  class="mt-2 block w-full rounded-md border-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                </div>
+
+                <div 
+                class="col-span-6 sm:col-span-3 lg:col-span-2">
+                 
+                <label 
+                  for="region" 
+                  class="block text-sm font-medium text-gray-700">Stad</label>
+                  <input
+                 aria-label="+"
+                  type="text" 
+                  name="region" 
+                  class="mt-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                </div>
+
+
+                <div 
+                class="col-span-6 sm:col-span-3 lg:col-span-2">
+                  <label 
+                  for="region" 
+                  class="block text-sm font-medium text-gray-700">Postkod</label>
+                  <input
+                  aria-label="*"
+                  type="text" 
+                  name="postal-code" 
+                  class="mt-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                </div>
+
+                <div 
+                class="col-span-6 sm:col-span-3 lg:col-span-2">
+                 
+                <label 
+                  for="region" 
+                  class="block text-sm font-medium text-gray-700">Fordonets REG-nummer</label>
+                  
+                <input 
+                  type="text" 
+                  name="region" 
+                  id="region" 
+                  autocomplete="address-level1" 
+                  class="mt-2 block w-full rounded-md border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+
+                </div>
+  
+                <div 
+                class="col-span-6 sm:col-span-3">
+
+                  <label 
+                  for="country" 
+                  class="block text-sm font-medium text-gray-700">Land </label>
+                  
+                  <select 
+                  id="country" 
+                  name="country" 
+                  autocomplete="country-name" 
+                  class="mt-2 block w-full rounded-md border border-gray-500 bg-white py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
+                    <option>Sverige</option>
+                    <option>Norge</option>
+                    <option>Finland</option>
+                  </select>
+                </div>
+
+                
+              </div>
+            </div>
+            <div 
+            class="rounded-md shadow-lg mt-8">
+            <a 
+            href="dist/index.html" 
+              class="flex max-w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700">Skapa konto</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+         <!--Create an account-form-END -->
+ 
+</body>
+</html>

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="/dist/output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skapa konto | Företag</title>
+</head>
+<body>
+
+
+    <div
+     class="flex min-h-fit flex-col justify-center py-12 sm:px-6 lg:px-8">
+        <div
+         class="sm:mx-auto sm:w-full sm:max-w-md">
+          <img
+           class="mx-auto"
+            src="/bilder/GHlogga.png"
+             alt="GarageHjälpens logga">
+             <a href="/index.html">
+              </a>
+    <h2
+     class="mt-6 text-center text-3xl text-gray-700">Skapa konto</h2>
+  <div
+   class="hidden sm:block"
+    aria-hidden="true">
+    
+      <div
+       class="border-t border-gray-200"></div>
+    
+  </div>
+  
+ 
+      <div
+       class="mt-5 md:col-span-2 md:mt-0">
+        <form 
+        action="#" 
+        method="POST">
+          <div 
+          class="overflow-hidden shadow sm:rounded-md">
+            <div
+             class="bg-white px-4 py-5 sm:p-6">
+              <div
+               class="grid grid-cols-6 gap-6">
+                <div
+                 class="col-span-6 sm:col-span-3">
+                  <label
+                   for="first-name"
+                    class="block text-sm font-medium text-gray-800">Verkstadens namn</label>
+
+                  <input
+                   type="text"
+                    name="first-name"
+                     id="first-name"
+                      autocomplete="given-name"
+                       class="mt-1 block w-full rounded-md border-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                </div>
+  
+                <div
+                 class="col-span-6 sm:col-span-3">
+                  <label
+                   for="last-name"
+                    class="block text-sm font-medium text-gray-700">Telefonnummer</label>
+                  <input
+                   type="text"
+                    name="last-name"
+                     id="last-name"
+                      autocomplete="family-name"
+                       class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                </div>
+  
+                <div
+                 class="col-span-6 sm:col-span-4">
+                  <label
+                   for="email-address"
+                    class="block text-sm font-medium text-gray-700">Epostadress</label>
+                  <input
+                   type="text"
+                    name="email-address"
+                     id="email-address"
+                      autocomplete="email"
+                       class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                </div>
+  
+                <div 
+                class="col-span-6 sm:col-span-4">
+                  <label
+                   for="email-address"
+                    class="block text-sm font-medium text-gray-700">Land</label>
+                  <input
+                   type="text"
+                    name="email-address"
+                     id="email-address"
+                      autocomplete="email"
+                       class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                </div>
+                
+  
+                <div
+                 class="col-span-6">
+                  <label
+                   for="street-address"
+                    class="block text-sm font-medium text-gray-700">Gatuadress</label>
+                  <input
+                   type="text"
+                    name="street-address"
+                     id="street-address"
+                      autocomplete="street-address"
+                       class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                </div>
+  
+                <div 
+                class="col-span-6 sm:col-span-6 lg:col-span-2">
+                  <label
+                   for="city"
+                   class="block text-sm font-medium text-gray-700">Stad</label>
+                  <input
+                   type="text"
+                    name="city"
+                     id="city"
+                     autocomplete="address-level2"
+                      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                </div>
+  
+                <div 
+                class="col-span-6 sm:col-span-3 lg:col-span-2">
+                  <label
+                   for="region"
+                    class="block text-sm font-medium text-gray-700"></label>
+                  <input
+                   type="text"
+                    name="region"
+                     id="region"
+                      autocomplete="address-level1"
+                       class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                </div>
+  
+                <div
+                 class="col-span-6 sm:col-span-3 lg:col-span-2">
+                  <label
+                   for="postal-code"
+                    class="block text-sm font-medium text-gray-700">Organisationsnummer</label>
+                  <input
+                   type="text"
+                    name="postal-code"
+                     id="postal-code"
+                      autocomplete="postal-code"
+                       class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                </div>
+              </div>
+          </div>
+
+
+                    <!--Kategorier-section-->
+                    <div>
+          <h3
+          class="mt-6 text-center text-3xl text-gray-900">Kategorier</h3>
+          <p class="font-extralight text-sm text-center text-gray-600">Här väljer ni vilka typer av jobb er verkstad kan utföra</p>
+                  
+          <div
+           class="grid grid-cols-3 gap-4 hover:bg-slate-600 cursor-auto
+          ">
+            <label
+             for="category1">
+              <input
+               type="checkbox"
+               id="Service"
+               name="Service"
+               class="mr-2">
+              Service
+            </label>
+
+            <label
+             for="category2">
+              <input
+               type="checkbox"
+               id="Glasarbete"
+               name="Glasarbete"
+               class="mr-2">
+              Glasarbete
+            </label>
+
+            <label
+            for="El">
+             <input
+              type="checkbox"
+              id="El"
+              name="El"
+              class="mr-2">
+             Elarbete
+           </label>
+
+            <label
+             for="Däck och Fälg">
+              <input
+               type="checkbox"
+               id="däck"
+               name="Däck"
+               class="mr-2">
+              Däck och Hjul
+            </label>
+
+
+            <label
+             for="AC-Service">
+              <input
+               type="checkbox"
+               id="AC"
+               name="AC"
+               class="mr-2">
+              AC-Service
+            </label>
+
+            <label
+             for="Kamrem">
+              <input
+               type="checkbox"
+               id="Kamrem"
+               name="Kamrem"
+               class="mr-2">
+              Kamremsbyte
+            </label>
+
+
+            <label 
+            for="Plåtarbete">
+              <input
+               type="checkbox"
+               id="Plåt"
+               name="Plåt"
+               class="mr-2">
+              Plåtarbeten
+            </label>
+
+
+            <label
+             for="Lackering">
+              <input
+               type="checkbox"
+               id="Lackering"
+               name="Lackering"
+               class="mr-2">
+              Lackeringsjobb
+            </label>
+
+            <label 
+            for="Bilvård">
+              <input 
+              type="checkbox"
+               id="Bilvård"
+               name="Bilvård"
+               class="mr-2">
+              Bilvård
+            </label>
+
+            <label
+             for="Besiktning">
+              <input
+               type="checkbox"
+               id="Besiktning"
+               name="Besiktning"
+               class="mr-2">
+              Inför besiktningen
+            </label>
+
+            <label
+            for="Motor">
+             <input
+              type="checkbox"
+              id="Motor"
+              name="Motor"
+              class="mr-2">
+             Motor
+           </label>
+
+            <label
+            for="category8">
+             <input
+              type="checkbox"
+              id="Annat"
+              name="Annat"
+              class="mr-2">
+             Annat
+           </label>
+
+       </div>
+
+                    <!--Kategorier - END-->
+
+
+
+                    <!--Aviseringar-section-->
+                    <div>
+                    <div>
+          <h4
+              class="mt-6 text-center text-3xl text-gray-900">Aviseringar</h4>
+
+                      </div>
+                    
+              <div
+        class="hidden sm:block"
+          aria-hidden="true">
+          <div
+          class="py-5">
+            <div
+            class="border-t border-gray-600"></div>
+          </div>
+        </div>
+  
+  <div
+   class="mt-10 sm:mt-0">
+    <div
+     class="md:grid md:grid-cols-3 md:gap-6">
+      <div
+       class="md:col-span-1">
+        <div
+         class="px-4 sm:px-0">
+          <h3
+           class="text-lg font-medium leading-6 text-gray-900">Aviseringar vid</h3>
+          
+        </div>
+      </div>
+      <div class="md:col-span-2">
+
+        <form
+         action="#"
+          method="POST">
+          <div
+           class="overflow-hidden shadow sm:rounded-md">
+            <div
+             class="space-y-6 bg-white px-4 py-5 sm:p-6">
+             
+              <fieldset>
+                <p>
+                  
+                </p>
+                <div 
+                class="mt-4 space-y-4">
+                  <div
+                   class="flex items-start">
+                    
+                   <div
+                     class="flex h-5 items-center">
+                      <input
+                       id="comments"
+                        name="comments"
+                         type="checkbox"
+                          class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                    </div>
+                    <div
+                     class="ml-3 text-sm">
+                      <label
+                       for="comments"
+                        class="font-medium text-gray-700">Nytt uppdrag</label>
+                      
+                        <p
+                         class="text-gray-500">Få ett mail när ett nytt uppdrag inom din kategori dyker upp</p>
+                    </div>
+                  </div>
+
+                  <div
+                   class="flex items-start">
+                    <div
+                     class="flex h-5 items-center">
+                      <input
+                       id="candidates"
+                         type="checkbox"
+                          class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                    </div>
+
+                    <div
+                     class="ml-5 text-sm">
+                      <label 
+                      for="candidates"
+                       class="font-medium text-gray-700">Meddelande</label>
+
+                      <p 
+                      class="text-gray-500">Få en avisering när du har ett nytt meddelande i inkorgen</p>
+                    </div>
+                  </div>
+
+                  <div
+                   class="flex items-start">
+                    <div
+                     class="flex h-5 items-center">
+                      <input 
+                      id="offers"
+                       name="offers"
+                        type="checkbox"
+                         class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                    </div>
+
+                    <div
+                     class="ml-3 text-sm">
+
+                    <label 
+                      for="offers"
+                       class="font-medium text-gray-700">Erbjudande</label>
+                      <p
+                       class="text-gray-600">Få en avisering när en kund har accepterat ett av dina erbjudanden</p>
+
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset>
+
+                  </div>
+                </div>
+              </fieldset>
+            </div>
+            <div
+             class="px-4 py-3 text-right sm:px-6 bg-gray-50 container mx-0 min-w-full grid place-items-center">
+              <button
+               type="submit"
+                class="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Skapa</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <p class="text-sm text-center font-italic">Genom att trycka "Skapa", går du med på <a href="#" class="m-5 hover:text-indigo-500 underline">Våra regler</a></p>
+  
+
+                <!--Aviseringar - END-->
+</body>
+</html>
